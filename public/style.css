@@ -1,0 +1,255 @@
+/* h1 {
+    color: red;
+    font-size: 40px;
+} */
+
+/* img {
+    width: auto;
+    height: auto;
+} */
+@media (min-width: 992px) { 
+    #Header .fa-shopping-bag {
+        color: orange;
+    }
+    
+    #Banner .Banner-Text {
+        /* margin-left: 20%; */
+        margin-top: 10%;
+    }
+    /* Bisa memakai (ml-1) untuk menggeser tulisan atau margin */
+    
+    #Banner .Banner-Text h6 {
+        font-size: 25px;
+        font-weight: 200;
+        color: #ec982e;
+    }
+    
+    .Banner-Text h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .Banner-Text h1 span{
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    
+    #Banner .Banner-Text .btn-success,
+    #Banner .Banner-Text .btn-light{
+        border-radius: 50px;
+    }
+    
+    #Banner .Banner-Text h1{
+        font-size: 35px;
+        font-weight: bolder;
+    }
+    
+    #Banner .Banner-Text span{
+        font-size: 35px;
+        font-weight: 100px;
+    }
+    
+    /* Carosel */
+    #Banner .d-flex img{
+        width: 540px;
+        height: auto;
+    }
+    #Carousel .fa-arrow-circle-left,
+            .fa-arrow-circle-right{
+        font-size: 48px;
+        color: #EC982E;
+    }
+    
+    #Carousel .carousel-indicators li{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+    }
+
+    /* #Carousel .container .carousel slide{
+        margin-top: 4px;
+    } */
+
+  
+    
+    
+    #Carousel .carousel-control-prev{
+        justify-content: start;
+        margin-left: -2%;
+    }
+    
+    #Carousel .carousel-control-next{
+        justify-content: end;
+        margin-right: -2%;
+    }
+    
+    /* #Carousel .carousel-control-prev,
+    .carousel-control-next{
+        color: EC982E;
+    } */
+    
+    #LandingPage .fa-eye{
+        color: #EC982E;
+    }
+    
+    #LandingPage .judul-menu h3{
+        font-size: 25px;
+    }
+    
+    #Product .card-text{
+        color: orange;
+    }
+    
+    #Product .card .btn-primary{
+        background-color: orange;
+        border: none;
+        border-radius: 50px;
+        width: 180px;
+        height: autopx;
+    
+    }
+    
+    #Product .card{
+        width: 150px;
+        height: 400px;
+        box-shadow: 0px 1px 4px;
+        border-radius: 8%;
+    }
+    
+    #Footer {
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    
+    #Footer .copyright{
+        border: 1px solid #f38aaa;
+        background-color: #f38aaa ;
+        font-size: 25px;
+        font-weight: 400px;
+    }
+    
+    #Footer .copyright p{
+        margin-top: 16px;
+    }
+    
+    /* List Product */
+    
+    #Danil .navbar-nav p {
+        color: rgba(0, 0, 0, 0.816);
+    }
+    
+    #Danil .navbar-nav i {
+        color: orange;
+    }
+    
+    /* Breadcrumb */
+    #Breadcrumb .breadcrumb a{
+        color: black;
+    }
+    
+    #Breadcrumb .breadcrumb{
+        background-color: white;
+    }
+    
+    #Breadcrumb .breadcrumb i{
+        color: orange;
+    }
+    
+    /* ProductDetail */
+    #Carousel2 .carousel-indicators li {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+    }
+    
+    #Carousel2 .carousel-control-prev{
+        justify-content: start;
+        margin-left: -10%;
+    }
+    
+    #Carousel2 .carousel-control-next{
+        justify-content: end;
+        margin-right: -10%;
+    }
+    #Carousel2 .fa-arrow-circle-left,
+            .fa-arrow-circle-right{
+        font-size: 48px;
+        color: #EC982E;
+            }
+    
+    #Carousel2 input {
+        width: 15%;
+    }
+    
+    #ProductDetail .judul-menu .col-lg-6 h3 {
+        font-size: 20px;
+    }
+    
+    #ProductDetail .judul-menu .col-lg-6 i {
+        color: orange;
+    }
+    
+    /* Keranjang */
+    #Keranjang .table img{
+        width: 170px;
+        height: 157px;
+    }
+    
+    /* #Keranjang .table h1{
+        text-align: right;
+    } */
+    #Harga .container h5{
+        text-align: right;
+    }
+    
+    #Harga .col-auto .form-control{
+        width: 35%;
+    }
+    
+    /* #Harga .btn-primary{
+        justify-content: end;
+    } */
+    
+    #Harga .col-lg-2{
+        width: 35px;
+        height: 20px;
+        border-radius: 25px;
+    }
+    
+    #Succes .success-img{
+        width: 292px;
+        height: 324px;
+        object-fit: cover;
+    }
+    
+    #Succes .text-ucapan{
+        color: orange;
+    }
+    
+    #Succes .btn-primary{
+        border: none;
+    }
+    
+    
+}
+
+/* Product 2 */
+#Product2 .card-text{
+    color: orange;
+}
+
+#Product2 .card .btn-primary{
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    width: 180px;
+    height: autopx;
+
+}
+
+#Product2 .card{
+    width: 150px;
+    height: 40s0px;
+    box-shadow: 0px 1px 4px;
+    border-radius: 8%;
+}
