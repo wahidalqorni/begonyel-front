@@ -23,7 +23,7 @@
               <div class="card-body text-center">
                 <h5 class="card-title">{{ bp.nama_produk }} <br> <small> {{ bp.nama_kategori }} </small> </h5>
                 <p class="card-text mx-3">Harga Rp {{ Number(bp.harga).toLocaleString() }}</p>
-                <router-link to="/Product-Detail" class="btn btn-primary">
+                <router-link :to="'/Product-Detail/' + bp.id " class="btn btn-primary">
                   Pesan Sekarang
                   <i class="fas fa-arrow-right"></i>
                 </router-link>

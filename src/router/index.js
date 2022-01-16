@@ -29,8 +29,13 @@ const routes = [
     name: 'Keranjang',
     component: Keranjang
   },
+  // {
+  //   path: '/Product-Detail',
+  //   name: 'ProductDetail',
+  //   component: ProductDetail
+  // },
   {
-    path: '/Product-Detail',
+    path: '/Product-Detail/:id',
     name: 'ProductDetail',
     component: ProductDetail
   },
